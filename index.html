@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Paddys | Same day delivery</title>
+  <link rel="shortcut icon" href="images/patdavein-icon.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__center container">
+      <div class="nav__logo">
+        <h1>
+          <a href="index.html"><img src="images/paddys.png"></a>
+        </h1>
+
+     
+
+      </div>
+
+
+      <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="What are you looking for?">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+
+
+      
+
+
+      <ul class="nav__list">
+        <div class="log">
+          <a href="#" class="login">login</a>
+        </div>
+        <div class="cart__icon">
+          
+          <h2> <i class="fas fa-shopping-basket"></i></h2>
+
+          <span class="item__total">0</span>
+        </div>
+      </ul>
+
+      <div class="hamburger">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-menu"></use>
+        </svg>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation -->
+
+  <!-- Products --> 
+  <div class="navLinks">
+    <ul class="categories">
+      <li><a href="#">Electronics</a></li>
+      <li><a href="#">Computers & Accessories</a></li>
+      <li><a href="#">Shop Laptops & Tablets</a></li>
+      <li><a href="#">Trending in Video Games</a></li>
+      <li><a href="#" class="hp">Holiday Promos</a></li>
+    </ul>
+  </div>
+
+  <div class="promo">
+    <h1>Latest News - Check out our <span>XMASS PROMOS!!!</span> </h1>
+  </div>
+  
+  <section class="products">
+    <div class="product__center">
+      <!-- Single Product -->
+      <!-- <div class="product">
+        <div class="image__container">
+          <img src="./images/product-1.jpg" alt="" />
+        </div>
+        <div class="product__footer">
+          <h1>The Original Super Donut</h1>
+          <div class="rating">
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+            </span>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+            </span>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+            </span>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+            </span>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="bottom">
+            <div class="btn__group">
+              <a href="#" class="btn addToCart">Add to Cart</a>
+              <a href="#" class="btn view">View</a>
+            </div>
+            <div class="price">$255.99</div>
+          </div>
+        </div>
+      </div> -->
+      <!-- End of Single Product -->
+    </div>
+  </section>
+
+  <section class="cart__overlay">
+    <div class="cart">
+      <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+      <h1>Your Cart</h1>
+      <div class="cart__centent">
+        <!-- Cart Item -->
+         <!-- <div class="cart__item">
+          <img src="./images/product-1.jpg" alt="">
+          <div>
+            <h3>The Original Super Donut</h3>
+            <h3 class="price">$750</h3>
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-angle-up"></use>
+              </svg>
+            </span>
+            <p>3</p>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-angle-down"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div>
+            <span class="remove__item">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-trash"></use>
+              </svg>
+            </span>
+          </div>
+        </div>-->
+      </div> 
+
+      <div class="cart__footer">
+        <h3>Total: $ <span class="cart__total">0</span></h3>
+        <button class="clear__cart btn">Clear Cart</button>
+        <br>
+        <button class="btn">Check Out <i class="fas fa-shipping-fast"></i></button>
+        
+      </div>
+    </div>
+  </section>
+
+  <script src="script/app.js"></script>
+</body>
+
+</html>
